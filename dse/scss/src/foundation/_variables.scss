@@ -71,6 +71,12 @@ $fs-base: 1rem; /* 16px */
 $fs-lg: 1.125rem; /* 18px */
 $fs-xl: 1.5rem; /* 24px */
 
+/* Font line heights */
+$flh-xs: 1rem; /* 16px */
+$flh-sm: 1.25rem; /* 20px */
+$flh-base: 1.5rem; /* 24px */
+$flh-lg: 1.75rem; /* 28px */
+
 /* Heading font sizes */
 $h-1: 1.375rem; /* 22px */
 $h-2: 1.375rem; /* 22px */
@@ -78,6 +84,22 @@ $h-3: 1rem; /* 16px */
 $h-4: 1.125rem; /* 18px */
 $h-5: 0.75rem; /* 12px */
 $h-6: 0.75rem; /* 12px */
+
+/* Heading line heights */
+$hlh-1: 7rem; /* 112px */
+$hlh-2: 4.375rem; /* 70px */
+$hlh-3: 3.5rem; /* 56px */
+$hlh-4: 2.5rem; /* 40px */
+$hlh-5: 1.75rem; /* 28px */
+$hlh-6: 1.4375rem; /* 23px */
+
+/* Heading letter spacings */
+$hls-1: -1.5px; /* -1.5px */
+$hls-2: -0.5px; /* -0.5px */
+$hls-3: 0; /* 0px */
+$hls-4: 0.25px; /* 0.25px */
+$hls-5: 0; /* 0px */
+$hls-6: 0.15px; /* 0.15px */
 
 /* Font weights */
 $fw-light: 300;
