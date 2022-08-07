@@ -19,6 +19,8 @@
  * BREAKPOINTS
  * Breakpoints ............ Global responsive breakpoints definitions.
  *
+ * SPACING
+ * Spacing ................ Global fixed set of spacing variables.
  */
 
 /*=============================================
@@ -45,7 +47,6 @@ $red-light: #f8dedf;
 
 $blue: #0468db;
 $blue-light: #b4d2f4;
-
 /*=====  End of COLORS  ======*/
 
 /*=============================================
@@ -109,7 +110,6 @@ $fw-semibold: 600;
 $fw-bold: 700;
 $fw-extrabold: 800;
 $fw-black: 900;
-
 /*=====  End of TYPOGRAPHY  ======*/
 
 /*=============================================
@@ -124,5 +124,29 @@ $breakpoints: (
 	xl: 80rem,
 	// 1280px
 );
-
 /*=====  End of BREAKPOINTS  ======*/
+
+/*=============================================
+=            SPACING
+=============================================*/
+$spacing: (
+	xxxs: 0.25rem,
+	// 4px
+	xxs: 0.5rem,
+	// 8px
+	xs: 0.75rem,
+	// 12px
+	sm: 1rem,
+	// 16px
+	md: 1.5rem,
+	// 24px
+	lg: 2rem,
+	// 32px
+	xl: 3rem,
+	// 48px
+	xxl: 4.5rem,
+	// 72px
+	xxxl: 6rem,
+	// 96px
+) !default;
+/*=====  End of SPACING  ======*/
